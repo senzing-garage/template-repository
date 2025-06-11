@@ -10,7 +10,7 @@ Heck, it may not even be appropriate for your application of Senzing!
 
 This repository contains exemplar artifacts (files) for Senzing repositories.
 
-GitHub provides support for these artifacts.  As an example, click on the following links on this GitHub repository:
+GitHub provides support for these artifacts. As an example, click on the following links on this GitHub repository:
 
 - "Insights" tab > "[Community]" on left-hand navigation bar
 
@@ -23,11 +23,11 @@ Senzing community files:
 1. [CONTRIBUTING.md]
 1. [docs/]
 1. .github/
-    1. [CODEOWNERS]
-    1. [dependabot.yml]
-    1. [senzing-corporate-contributor-license-agreement]
-    1. [senzing-individual-contributor-license-agreement]
-    1. workflows/
+   1. [CODEOWNERS]
+   1. [dependabot.yml]
+   1. [senzing-corporate-contributor-license-agreement]
+   1. [senzing-individual-contributor-license-agreement]
+   1. workflows/
 1. [LICENSE]
 1. [README.md]
 
@@ -38,9 +38,9 @@ Depending upon the type of repository, the following `README.md` templates may b
 
 Examples:
 
-  1. [template-docker/README.md]
-  1. [template-go/README.md]
-  1. [template-python/README.md]
+1. [template-docker/README.md]
+1. [template-go/README.md]
+1. [template-python/README.md]
 
 ## CHANGELOG.md
 
@@ -57,7 +57,7 @@ Also, projects adhere to [Semantic Versioning].
 
 The [CODE_OF_CONDUCT] file describes the social conventions among contributors to the repository.
 
-> A *code of conduct* defines standards for how to engage in a community. It signals an inclusive environment that respects all contributions. It also outlines procedures for addressing problems between members of your project's community. For more information on why a code of conduct defines standards and expectations for how to engage in a community, see the [Open Source Guide].
+> A _code of conduct_ defines standards for how to engage in a community. It signals an inclusive environment that respects all contributions. It also outlines procedures for addressing problems between members of your project's community. For more information on why a code of conduct defines standards and expectations for how to engage in a community, see the [Open Source Guide].
 >
 > -- <cite>GitHub's [Adding a code of conduct to your project]</cite>
 
@@ -66,11 +66,11 @@ The [CODE_OF_CONDUCT] file in this repository is based on GitHub's "[Contributor
 ### How to create CODE_OF_CONDUCT.md
 
 1. Option #1: Using GitHub's "Wizard"
-    1. [github.com] > (choose repository) > Insights > Community > Code of conduct > "Add" button > "Contributor Covenant"
+   1. [github.com] > (choose repository) > Insights > Community > Code of conduct > "Add" button > "Contributor Covenant"
 1. Option #2: Manual file creation
-    1. See GitHub's [Adding a code of conduct to your project]
-    1. Alternative `CODE_OF_CONDUCT.md` content:
-        1. [Apache Software Foundation Code of Conduct]
+   1. See GitHub's [Adding a code of conduct to your project]
+   1. Alternative `CODE_OF_CONDUCT.md` content:
+      1. [Apache Software Foundation Code of Conduct]
 
 ## CONTRIBUTING.md
 
@@ -87,17 +87,15 @@ The [CONTRIBUTING] file in this repository is an example that needs to be modifi
 ### How to create CONTRIBUTING.md
 
 1. Option #1: Using GitHub's "Wizard"
-    1. [github.com] > (choose repository) > Insights > Community > Contributing > "Add" button
+   1. [github.com] > (choose repository) > Insights > Community > Contributing > "Add" button
 1. Option #2: Manual file creation
-    1. See GitHub's [Setting guidelines for repository contributors]
+   1. See GitHub's [Setting guidelines for repository contributors]
 
 ## docs
 
 The
 [docs] subdirectory may be published as [GitHub Pages].
-They become visible at
-[hub.senzing.com].
-URLs have the format:
+They become visible at [hub.senzing.com]. URLs have the format:
 
 ```console
 https://hub.senzing.com/<repository-name>
@@ -130,7 +128,7 @@ is the standard agreement for a corporation's contribution to a Senzing reposito
 
 1. Make a `.github` directory in the repository
 1. Copy [senzing-corporate-contributor-license-agreement.pdf] into the new `.github` directory
-1. *DO NOT* modify the contents of [senzing-corporate-contributor-license-agreement.pdf] without legal approval.
+1. _DO NOT_ modify the contents of [senzing-corporate-contributor-license-agreement.pdf] without legal approval.
 1. Reference `senzing-corporate-contributor-license-agreement.pdf` in [CONTRIBUTING.md]
 
 ### .github/senzing-individual-contributor-license-agreement.pdf
@@ -138,7 +136,7 @@ is the standard agreement for a corporation's contribution to a Senzing reposito
 The Individual Contributor License Agreement (ICLA),
 [senzing-individual-contributor-license-agreement.pdf],
 is the standard agreement for an individual's contribution to a Senzing repository.
-*Note:* if an individual is contributing on behalf of a company, the
+_Note:_ if an individual is contributing on behalf of a company, the
 [senzing-corporate-contributor-license-agreement]
 must also be submitted and accepted.
 
@@ -146,7 +144,7 @@ must also be submitted and accepted.
 
 1. Make a `.github` directory in the repository
 1. Copy [senzing-individual-contributor-license-agreement.pdf] into the new `.github` directory
-1. *DO NOT* modify the contents of [senzing-individual-contributor-license-agreement.pdf] without legal approval.
+1. _DO NOT_ modify the contents of [senzing-individual-contributor-license-agreement.pdf] without legal approval.
 1. Reference `senzing-individual-contributor-license-agreement.pdf` in [CONTRIBUTING.md]
 
 ### .github/workflows
@@ -162,9 +160,9 @@ The [LICENSE file] in this repository is based on "[Apache License 2.0]".
 ### How to create LICENSE
 
 1. Option #1: Using GitHub's "Wizard"
-    1. When [creating a new repository], in the "Add a license:" drop-down, choose "Apache License 2.0"
+   1. When [creating a new repository], in the "Add a license:" drop-down, choose "Apache License 2.0"
 1. Option #2: Manual file creation
-    1. See GitHub's [Adding a license to a repository]
+   1. See GitHub's [Adding a license to a repository]
 
 [.github/CODEOWNERS]: .github/CODEOWNERS
 [Adding a code of conduct to your project]: https://help.github.com/articles/adding-a-code-of-conduct-to-your-project/
