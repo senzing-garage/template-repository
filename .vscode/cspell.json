@@ -3,12 +3,13 @@
   "language": "en",
   "words": [
     "CCLA",
+    "choosealicense",
     "CODEOWNER",
     "CODEOWNERS",
+    "cooldown",
+    "esbenp",
     "ICLA",
     "Senzing",
-    "choosealicense",
-    "esbenp",
     "stackoverflow"
   ],
   "ignorePaths": [
