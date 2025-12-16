@@ -24,4 +24,3 @@ CHANGELOG.md follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) fo
 ## Claude Slash Commands
 
 - `/senzing` - Runs steps from the centralized senzing command
-- `/senzing-code-review` - Performs code review using the centralized PR prompt from build-resources
