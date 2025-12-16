@@ -12,7 +12,5 @@
     "Senzing",
     "stackoverflow"
   ],
-  "ignorePaths": [
-    ".git/**"
-  ]
+  "ignorePaths": [".git/**"]
 }
