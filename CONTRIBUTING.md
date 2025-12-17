@@ -98,7 +98,8 @@ cd ${GIT_REPOSITORY_DIR}
 ### Pull Requests
 
 Code in the main branch is modified via GitHub pull request.
-Follow GitHub's [Creating a pull request from a branch] or [Creating a pull request from a fork] instructions.
+Follow GitHub's [Creating a pull request from a branch] or
+[Creating a pull request from a fork] instructions.
 
 Accepting pull requests will be at the discretion of Senzing, Inc. and the repository owner(s).
 
