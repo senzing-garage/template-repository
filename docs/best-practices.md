@@ -1,1 +1,1 @@
-# Best practices
+# template-repository best practices
