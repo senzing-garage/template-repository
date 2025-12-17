@@ -15,14 +15,12 @@
   - [jscpd configuration]
   - Example:
 
-      ```json
-      {
-      "ignore": [
-          "**/*.example,**/example2*.yaml"
-      ],
+    ```json
+    {
+      "ignore": ["**/*.example,**/example2*.yaml"],
       "threshold": 10
-      }
-      ```
+    }
+    ```
 
 ## .yaml-lint.yml
 
