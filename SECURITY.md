@@ -2,8 +2,7 @@
 
 ## Supported Versions
 
-Use this section to tell people about which versions of your project are
-currently being supported with security updates.
+The following versions of this repository are supported with security updates.
 
 | Version | Supported |
 |---------|:---------:|
@@ -15,7 +14,25 @@ currently being supported with security updates.
 ## Reporting a Vulnerability
 
 To report a vulnerability, email <support@senzing.com>.
+Be sure to identify which repository has the vulnerability.
+Example email:
+
+```console
+support@senzing.com,
+
+I'm reporting a vulnerability in https://github.com/senzing-garage/template-repository/.
+
+When performing X, the following can occur:
+
+1. ...
+2. ...
+3. ...
+
+:
+```
+
 Discussion of vulnerabilities will be done via email to avoid public exposure of the vulnerability.
+
 
 In general, project dependencies are updated within 30 days of the dependency's release.
 
