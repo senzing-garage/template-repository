@@ -19,7 +19,7 @@ Example email:
 
 > <support@senzing.com>,
 >
-> I'm reporting a vulnerability in >https://github.com/senzing-garage/template-repository/>.
+> I'm reporting a vulnerability in <https://github.com/senzing-garage/template-repository/>.
 >
 > When performing X, the following can occur:
 >
