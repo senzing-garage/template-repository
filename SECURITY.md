@@ -5,11 +5,11 @@
 The following versions of this repository are supported with security updates.
 
 | Version | Supported |
-|---------|:---------:|
-| 5.1.x   |     ✅    |
-| 5.0.x   |     ❌    |
-| 4.0.x   |     ✅    |
-| < 4.0   |     ❌    |
+| ------- | :-------: |
+| 5.1.x   |    ✅     |
+| 5.0.x   |    ❌     |
+| 4.0.x   |    ✅     |
+| < 4.0   |    ❌     |
 
 ## Reporting a Vulnerability
 
