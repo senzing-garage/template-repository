@@ -8,6 +8,7 @@ it's not considered to be "production ready" and is not considered to be part of
 Heck, it may not even be appropriate for your application of Senzing!
 
 This repository contains exemplar artifacts (files) for Senzing repositories.
+It is not meant to be an example README.md for specific repositories.
 
 GitHub provides support for these artifacts.
 As an example, click on the following links on this GitHub repository:
