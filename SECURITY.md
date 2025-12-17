@@ -6,10 +6,10 @@ The following versions of this repository are supported with security updates.
 
 | Version | Supported |
 | ------- | --------- |
-| 5.1.x   | ✅        |
-| 5.0.x   | ❌        |
-| 4.0.x   | ✅        |
-| < 4.0   | ❌        |
+| 5.1.x   | ✅       |
+| 5.0.x   | ❌       |
+| 4.0.x   | ✅       |
+| < 4.0   | ❌       |
 
 ## Reporting a Vulnerability
 
@@ -35,6 +35,4 @@ In general, project dependencies are updated within 30 days of the dependency's 
 
 FIXME: The following was "boilerplate hints"...
 
-Tell them where to go, how often they can expect to get an update on a
-reported vulnerability, what to expect if the vulnerability is accepted or
-declined, etc.
+Tell them where to go, how often they can expect to get an update on a reported vulnerability, what to expect if the vulnerability is accepted or declined, etc.
