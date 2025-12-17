@@ -9,7 +9,8 @@ Heck, it may not even be appropriate for your application of Senzing!
 
 This repository contains exemplar artifacts (files) for Senzing repositories.
 
-GitHub provides support for these artifacts. As an example, click on the following links on this GitHub repository:
+GitHub provides support for these artifacts.
+As an example, click on the following links on this GitHub repository:
 
 - "Insights" tab > "[Community]" on left-hand navigation bar
 
@@ -94,15 +95,15 @@ The [CONTRIBUTING] file in this repository is an example that needs to be modifi
 ## docs
 
 The [docs] subdirectory may be published as [GitHub Pages].
-They become visible at [hub.senzing.com].
+They become visible at [garage.senzing.com].
 URLs have the format:
 
 ```console
-https://hub.senzing.com/<repository-name>
+https://garage.senzing.com/<repository-name>
 ```
 
 Example:
-[hub.senzing.com/sdk-components-ng]
+[garage.senzing.com/sdk-components-ng]
 
 ## .github
 
@@ -168,20 +169,20 @@ The [LICENSE file] in this repository is based on "[Apache License 2.0]".
 [CODE_OF_CONDUCT]: CODE_OF_CONDUCT.md
 [CODEOWNERS]: #githubcodeowners
 [CommonMark]: https://commonmark.org/
-[Community]: https://github.com/senzing-factory/template-repository/community
+[Community]: https://github.com/senzing-garage/template-repository/graphs/community
 [CONTRIBUTING.md]: #contributingmd
 [CONTRIBUTING]: CONTRIBUTING.md
 [Contributor Covenant]: https://www.contributor-covenant.org/version/1/4/code-of-conduct.html
 [creating a new repository]: https://github.com/new
-[dependabot.yml]: #githubdependabotyml
+[dependabot.yml]: .github/dependabot.yml
 [docs]: docs
 [docs/]: #docs
 [GitHub Pages]: https://pages.github.com/
 [github.com]: https://github.com/
 [github.com/orgs/Senzing/teams]: https://github.com/orgs/Senzing/teams
 [GitHub's dependabot]: https://docs.github.com/en/code-security/dependabot
-[hub.senzing.com]: https://hub.senzing.com/
-[hub.senzing.com/sdk-components-ng]: https://hub.senzing.com/sdk-components-ng/
+[garage.senzing.com]: https://garage.senzing.com/
+[garage.senzing.com/sdk-components-ng]: https://garage.senzing.com/sdk-components-ng/
 [Keep a Changelog]: https://keepachangelog.com/en/1.0.0/
 [LICENSE file]: LICENSE
 [LICENSE]: #license
