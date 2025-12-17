@@ -17,19 +17,17 @@ To report a vulnerability, email <support@senzing.com>.
 Be sure to identify which repository has the vulnerability.
 Example email:
 
-```console
-support@senzing.com,
-
-I'm reporting a vulnerability in https://github.com/senzing-garage/template-repository/.
-
-When performing X, the following can occur:
-
-1. ...
-2. ...
-3. ...
-
-:
-```
+> <support@senzing.com>,
+>
+> I'm reporting a vulnerability in >https://github.com/senzing-garage/template-repository/>.
+>
+> When performing X, the following can occur:
+>
+> 1. ...
+> 2. ...
+> 3. ...
+>
+>:
 
 Discussion of vulnerabilities will be done via email to avoid public exposure of the vulnerability.
 
