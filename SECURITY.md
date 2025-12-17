@@ -31,7 +31,6 @@ Example email:
 
 Discussion of vulnerabilities will be done via email to avoid public exposure of the vulnerability.
 
-
 In general, project dependencies are updated within 30 days of the dependency's release.
 
 FIXME: The following was "boilerplate hints"...
