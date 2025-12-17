@@ -19,8 +19,7 @@ Discussion of vulnerabilities will be done via email to avoid public exposure of
 
 In general, project dependencies are updated within 30 days of the dependency's release.
 
-
-FIXME:
+FIXME: The following was "boilerplate hints"...
 
 Tell them where to go, how often they can expect to get an update on a
 reported vulnerability, what to expect if the vulnerability is accepted or
