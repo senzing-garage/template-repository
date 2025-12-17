@@ -46,8 +46,8 @@ Examples:
 
 The contents of the [CHANGELOG] are meant to be consumed by users of the repository.
 As such, they need to know what changes affect them as users.
-In general, changes that do not effect users should not be captured in CHANGELOG.md.
-For this reason, automatic generation of CHANGELOG.md entries is discouraged.
+In general, changes that do not effect users should not be captured in `CHANGELOG.md`.
+For this reason, automatic generation of `CHANGELOG.md` entries is discouraged.
 
 The format of `CHANGELOG.md` is based on [Keep a Changelog] and [CommonMark].
 Also, projects adhere to [Semantic Versioning].
