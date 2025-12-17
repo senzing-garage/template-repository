@@ -13,26 +13,11 @@ The following versions of this repository are supported with security updates.
 
 ## Reporting a Vulnerability
 
-To report a vulnerability, email <support@senzing.com>.
-Be sure to identify which repository has the vulnerability.
-Example email:
+If you believe you have found a security vulnerability in this repository,
+please open it privately via the [Report a security vulnerability] link in the Security tab.
 
-> <support@senzing.com>,
->
-> I'm reporting a vulnerability in <https://github.com/senzing-garage/template-repository/>.
->
-> When performing X, the following can occur:
->
-> 1. ...
-> 2. ...
-> 3. ...
->
-> :
+**Please do not report security vulnerabilities through public issues, discussions, or pull requests.**
 
-Discussion of vulnerabilities will be done via email to avoid public exposure of the vulnerability.
+In general, project dependencies are updated within 60 days of the dependency's release.
 
-In general, project dependencies are updated within 30 days of the dependency's release.
-
-FIXME: The following was "boilerplate hints"...
-
-Tell them where to go, how often they can expect to get an update on a reported vulnerability, what to expect if the vulnerability is accepted or declined, etc.
+[Report a security vulnerability]: https://github.com/senzing-garage/template-repository/security/advisories/new
