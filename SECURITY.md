@@ -27,7 +27,7 @@ Example email:
 > 2. ...
 > 3. ...
 >
->:
+> :
 
 Discussion of vulnerabilities will be done via email to avoid public exposure of the vulnerability.
 
