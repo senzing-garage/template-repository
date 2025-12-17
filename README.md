@@ -1,7 +1,6 @@
 # template-repository
 
-If you are beginning your journey with [Senzing],
-please start with [Senzing Quick Start guides].
+If you are beginning your journey with [Senzing], please start with [Senzing Quick Start guides].
 
 You are in the [Senzing Garage] where projects are "tinkered" on.
 Although this GitHub repository may help you understand an approach to using Senzing,
@@ -44,20 +43,22 @@ Examples:
 
 ## CHANGELOG.md
 
-The contents of the [CHANGELOG]
-are meant to be consumed by users of the repository.
+The contents of the [CHANGELOG] are meant to be consumed by users of the repository.
 As such, they need to know what changes affect them as users.
 In general, changes that do not effect users should not be captured in CHANGELOG.md.
 For this reason, automatic generation of CHANGELOG.md entries is discouraged.
 
-The format of `CHANGELOG.md` is based on [Keep a Changelog], [markdownlint].
+The format of `CHANGELOG.md` is based on [Keep a Changelog] and [CommonMark].
 Also, projects adhere to [Semantic Versioning].
 
 ## CODE_OF_CONDUCT.md
 
 The [CODE_OF_CONDUCT] file describes the social conventions among contributors to the repository.
 
-> A _code of conduct_ defines standards for how to engage in a community. It signals an inclusive environment that respects all contributions. It also outlines procedures for addressing problems between members of your project's community. For more information on why a code of conduct defines standards and expectations for how to engage in a community, see the [Open Source Guide].
+> A _code of conduct_ defines standards for how to engage in a community.
+> It signals an inclusive environment that respects all contributions.
+> It also outlines procedures for addressing problems between members of your project's community.
+> For more information on why a code of conduct defines standards and expectations for how to engage in a community, see the [Open Source Guide].
 >
 > -- <cite>GitHub's [Adding a code of conduct to your project]</cite>
 
@@ -74,11 +75,10 @@ The [CODE_OF_CONDUCT] file in this repository is based on GitHub's "[Contributor
 
 ## CONTRIBUTING.md
 
-The
-[CONTRIBUTING]
-file describes the process for contributing to the repository.
+The [CONTRIBUTING] file describes the process for contributing to the repository.
 
-> To help your project contributors do good work, you can add a file with contribution guidelines to your project repository's root. When someone opens a pull request or creates an issue, they will see a link to that file.
+> To help your project contributors do good work, you can add a file with contribution guidelines to your project repository's root.
+> When someone opens a pull request or creates an issue, they will see a link to that file.
 >
 > -- <cite>GitHub's [Setting guidelines for repository contributors]</cite>
 
@@ -93,9 +93,9 @@ The [CONTRIBUTING] file in this repository is an example that needs to be modifi
 
 ## docs
 
-The
-[docs] subdirectory may be published as [GitHub Pages].
-They become visible at [hub.senzing.com]. URLs have the format:
+The [docs] subdirectory may be published as [GitHub Pages].
+They become visible at [hub.senzing.com].
+URLs have the format:
 
 ```console
 https://hub.senzing.com/<repository-name>
@@ -108,44 +108,35 @@ Example:
 
 ### .github/CODEOWNERS
 
-The
-[.github/CODEOWNERS] file implements GitHub's [code owners].
-The teams that may appear in a `CODEOWNERS` file can be seen at
-[github.com/orgs/Senzing/teams].
+The [.github/CODEOWNERS] file implements GitHub's [code owners].
+The teams that may appear in a `CODEOWNERS` file can be seen at [github.com/orgs/Senzing/teams].
 
 ### .github/dependabot.yml
 
-The
-[dependabot.yml] file is configuration for [GitHub's dependabot].
+The [dependabot.yml] file is configuration for [GitHub's dependabot].
 
 ### .github/senzing-corporate-contributor-license-agreement.pdf
 
-The Senzing, INC. Software Grant and Corporate Contributor License Agreement (CCLA),
-[senzing-corporate-contributor-license-agreement.pdf],
-is the standard agreement for a corporation's contribution to a Senzing repository.
+The Senzing, INC. Software Grant and Corporate Contributor License Agreement (CCLA), [senzing-corporate-contributor-license-agreement.pdf], is the standard agreement for a corporation's contribution to a Senzing repository.
 
 #### How to create .github/senzing-corporate-contributor-license-agreement.pdf
 
-1. Make a `.github` directory in the repository
-1. Copy [senzing-corporate-contributor-license-agreement.pdf] into the new `.github` directory
+1. Make a `.github` directory in the repository.
+1. Copy [senzing-corporate-contributor-license-agreement.pdf] into the new `.github` directory.
 1. _DO NOT_ modify the contents of [senzing-corporate-contributor-license-agreement.pdf] without legal approval.
-1. Reference `senzing-corporate-contributor-license-agreement.pdf` in [CONTRIBUTING.md]
+1. Reference `senzing-corporate-contributor-license-agreement.pdf` in [CONTRIBUTING.md].
 
 ### .github/senzing-individual-contributor-license-agreement.pdf
 
-The Individual Contributor License Agreement (ICLA),
-[senzing-individual-contributor-license-agreement.pdf],
-is the standard agreement for an individual's contribution to a Senzing repository.
-_Note:_ if an individual is contributing on behalf of a company, the
-[senzing-corporate-contributor-license-agreement]
-must also be submitted and accepted.
+The Individual Contributor License Agreement (ICLA), [senzing-individual-contributor-license-agreement.pdf], is the standard agreement for an individual's contribution to a Senzing repository.
+_Note:_ if an individual is contributing on behalf of a company, the [senzing-corporate-contributor-license-agreement] must also be submitted and accepted.
 
 #### How to create .github/senzing-individual-contributor-license-agreement.pdf
 
-1. Make a `.github` directory in the repository
-1. Copy [senzing-individual-contributor-license-agreement.pdf] into the new `.github` directory
+1. Make a `.github` directory in the repository.
+1. Copy [senzing-individual-contributor-license-agreement.pdf] into the new `.github` directory.
 1. _DO NOT_ modify the contents of [senzing-individual-contributor-license-agreement.pdf] without legal approval.
-1. Reference `senzing-individual-contributor-license-agreement.pdf` in [CONTRIBUTING.md]
+1. Reference `senzing-individual-contributor-license-agreement.pdf` in [CONTRIBUTING.md].
 
 ### .github/workflows
 
@@ -159,10 +150,10 @@ The [LICENSE file] in this repository is based on "[Apache License 2.0]".
 
 ### How to create LICENSE
 
-1. Option #1: Using GitHub's "Wizard"
-   1. When [creating a new repository], in the "Add a license:" drop-down, choose "Apache License 2.0"
-1. Option #2: Manual file creation
-   1. See GitHub's [Adding a license to a repository]
+1. Option #1: Using GitHub's "Wizard".
+   1. When [creating a new repository], in the "Add a license:" drop-down, choose "Apache License 2.0".
+1. Option #2: Manual file creation.
+   1. See GitHub's [Adding a license to a repository].
 
 [.github/CODEOWNERS]: .github/CODEOWNERS
 [Adding a code of conduct to your project]: https://help.github.com/articles/adding-a-code-of-conduct-to-your-project/
@@ -176,6 +167,7 @@ The [LICENSE file] in this repository is based on "[Apache License 2.0]".
 [CODE_OF_CONDUCT.md]: #code_of_conductmd
 [CODE_OF_CONDUCT]: CODE_OF_CONDUCT.md
 [CODEOWNERS]: #githubcodeowners
+[CommonMark]: https://commonmark.org/
 [Community]: https://github.com/senzing-factory/template-repository/community
 [CONTRIBUTING.md]: #contributingmd
 [CONTRIBUTING]: CONTRIBUTING.md
@@ -193,7 +185,6 @@ The [LICENSE file] in this repository is based on "[Apache License 2.0]".
 [Keep a Changelog]: https://keepachangelog.com/en/1.0.0/
 [LICENSE file]: LICENSE
 [LICENSE]: #license
-[markdownlint]: https://dlaa.me/markdownlint/
 [Open Source Guide]: https://opensource.guide/code-of-conduct/
 [README.md]: #readmemd
 [Semantic Versioning]: https://semver.org/spec/v2.0.0.html
