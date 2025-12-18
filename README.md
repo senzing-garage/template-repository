@@ -7,6 +7,8 @@ Although this GitHub repository may help you understand an approach to using Sen
 it's not considered to be "production ready" and is not considered to be part of the Senzing product.
 Heck, it may not even be appropriate for your application of Senzing!
 
+## Synopsis
+
 This repository contains exemplar artifacts (files) for Senzing repositories.
 It is not meant to be an example README.md for specific repositories.
 
@@ -31,6 +33,7 @@ Senzing community files:
    1. workflows/
 1. [LICENSE]
 1. [README.md]
+1. [SECURITY.md]
 
 ## README.md
 
@@ -157,6 +160,11 @@ The [LICENSE file] in this repository is based on "[Apache License 2.0]".
 1. Option #2: Manual file creation.
    1. See GitHub's [Adding a license to a repository].
 
+## SECURITY.md
+
+The contents of the [SECURITY] file explain the security aspects of the repository.
+This includes how to report a suspected vulnerability.
+
 [.github/CODEOWNERS]: .github/CODEOWNERS
 [Adding a code of conduct to your project]: https://help.github.com/articles/adding-a-code-of-conduct-to-your-project/
 [Adding a license to a repository]: https://help.github.com/articles/adding-a-license-to-a-repository/
@@ -178,17 +186,19 @@ The [LICENSE file] in this repository is based on "[Apache License 2.0]".
 [dependabot.yml]: .github/dependabot.yml
 [docs]: docs
 [docs/]: #docs
+[garage.senzing.com]: https://garage.senzing.com/
+[garage.senzing.com/sdk-components-ng]: https://garage.senzing.com/sdk-components-ng/
 [GitHub Pages]: https://pages.github.com/
 [github.com]: https://github.com/
 [github.com/orgs/Senzing/teams]: https://github.com/orgs/Senzing/teams
 [GitHub's dependabot]: https://docs.github.com/en/code-security/dependabot
-[garage.senzing.com]: https://garage.senzing.com/
-[garage.senzing.com/sdk-components-ng]: https://garage.senzing.com/sdk-components-ng/
 [Keep a Changelog]: https://keepachangelog.com/en/1.0.0/
 [LICENSE file]: LICENSE
 [LICENSE]: #license
 [Open Source Guide]: https://opensource.guide/code-of-conduct/
 [README.md]: #readmemd
+[SECURITY.md]: #securitymd
+[SECURITY]: security.md
 [Semantic Versioning]: https://semver.org/spec/v2.0.0.html
 [Senzing Garage]: https://github.com/senzing-garage
 [Senzing Quick Start guides]: https://docs.senzing.com/quickstart/
