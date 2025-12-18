@@ -94,6 +94,9 @@ URLs have the format:
 https://garage.senzing.com/<repository-name>
 ```
 
+Example:
+[garage.senzing.com/sdk-components-ng]
+
 ## CHANGELOG.md
 
 The contents of the [CHANGELOG.md file] are meant to be consumed by users of the repository.
