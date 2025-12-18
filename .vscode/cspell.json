@@ -14,7 +14,5 @@
     "stackoverflow",
     "zizmor"
   ],
-  "ignorePaths": [
-    ".git/**"
-  ]
+  "ignorePaths": [".git/**"]
 }
