@@ -30,6 +30,8 @@ Senzing community files:
    1. [senzing-corporate-contributor-license-agreement]
    1. [senzing-individual-contributor-license-agreement]
    1. workflows/
+1. .vscode
+   1. [cspell.json]
 1. [docs/]
 1. [CHANGELOG.md]
 1. [CODE_OF_CONDUCT.md]
@@ -97,12 +99,17 @@ https://garage.senzing.com/<repository-name>
 Example:
 [garage.senzing.com/sdk-components-ng]
 
+## .vscode
+
+### .vscode/cspell.json
+
+The [.vscode/cspell.json file] is used to maintain a list of acceptable spellings for [cspell] checking
+
 ## CHANGELOG.md
 
 The contents of the [CHANGELOG.md file] are meant to be consumed by users of the repository.
 As such, they need to know what changes affect them as users.
 In general, changes that do not effect users should not be captured in `CHANGELOG.md`.
-For this reason, automatic generation of `CHANGELOG.md` entries is discouraged.
 
 The format of `CHANGELOG.md` is based on [Keep a Changelog] and [CommonMark].
 Also, projects adhere to [Semantic Versioning].
@@ -181,6 +188,7 @@ This includes how to report a suspected vulnerability.
 [.claude/commands/senzing.md file]: .claude/commands/senzing.md
 [.claude/settings.json file]: .claude/settings.json
 [.github/CODEOWNERS file]: .github/CODEOWNERS
+[.vscode/cspell.json file]: .vscode/cspell.json
 [Adding a code of conduct to your project]: https://help.github.com/articles/adding-a-code-of-conduct-to-your-project/
 [Adding a license to a repository]: https://help.github.com/articles/adding-a-license-to-a-repository/
 [Apache License 2.0]: https://www.apache.org/licenses/LICENSE-2.0.html
@@ -200,6 +208,8 @@ This includes how to report a suspected vulnerability.
 [CONTRIBUTING.md]: #contributingmd
 [Contributor Covenant]: https://www.contributor-covenant.org/version/3/0/code_of_conduct/
 [creating a new repository]: https://github.com/new
+[cspell.json]: #vscodecspelljson
+[cspell]: https://cspell.org/
 [dependabot.yml file]: .github/dependabot.yml
 [dependabot.yml]: githubdependabotyml
 [docs directory]: docs
