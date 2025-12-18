@@ -19,6 +19,24 @@ As an example, click on the following links on this GitHub repository:
 
 ## Files
 
+
+```console
+├── [CHANGELOG.md]
+├── .claude
+│   ├── CLAUDE.md
+│   ├── commands
+│   │   └── senzing.md
+│   └── settings.json
+├── CODE_OF_CONDUCT.md
+├── CONTRIBUTING.md
+├── docs
+│   ├── best-practices.md
+│   ├── development.md
+│   ├── errors.md
+│   ├── examples.md
+│   └── README.md
+```
+
 Senzing community files:
 
 1. .claude/
