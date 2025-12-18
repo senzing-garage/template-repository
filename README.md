@@ -19,23 +19,7 @@ As an example, click on the following links on this GitHub repository:
 
 ## Files
 
-
-```console
-├── [CHANGELOG.md]
-├── .claude
-│   ├── CLAUDE.md
-│   ├── commands
-│   │   └── senzing.md
-│   └── settings.json
-├── CODE_OF_CONDUCT.md
-├── CONTRIBUTING.md
-├── docs
-│   ├── best-practices.md
-│   ├── development.md
-│   ├── errors.md
-│   ├── examples.md
-│   └── README.md
-```
+For directory structure, see [Directory layout].
 
 Senzing community files:
 
@@ -203,6 +187,55 @@ Examples:
 The contents of the [SECURITY.md file] explain the security aspects of the repository.
 This includes how to report a suspected vulnerability.
 
+## Directory layout
+
+```console
+├── .claude
+│   ├── CLAUDE.md
+│   ├── commands
+│   │   └── senzing.md
+│   └── settings.json
+├── .github
+│   ├── CODEOWNERS
+│   ├── dependabot.yml
+│   ├── linters
+│   │   ├── .checkov.yaml
+│   │   ├── .jscpd.json
+│   │   ├── .yaml-lint.yml
+│   │   ├── README.md
+│   │   └── zizmor.yaml
+│   ├── senzing-corporate-contributor-license-agreement.pdf
+│   ├── senzing-individual-contributor-license-agreement.pdf
+│   └── workflows
+│       ├── README.md
+│       ├── add-labels-standardized.yaml
+│       ├── add-to-project-garage-dependabot.yaml
+│       ├── add-to-project-garage.yaml
+│       ├── claude-pr-review.yaml
+│       ├── dependabot-approve-and-merge.yaml
+│       ├── link-issues-to-pr-post-merge.yaml
+│       ├── lint-workflows.yaml
+│       ├── move-pr-to-done-dependabot.yaml
+│       └── spellcheck.yaml
+├── .gitignore
+├── .project
+├── .vscode
+│   ├── cspell.json
+│   └── settings.json
+├── CHANGELOG.md
+├── CODE_OF_CONDUCT.md
+├── CONTRIBUTING.md
+├── LICENSE
+├── README.md
+├── SECURITY.md
+└── docs
+    ├── README.md
+    ├── best-practices.md
+    ├── development.md
+    ├── errors.md
+    └── examples.md
+```
+
 [.claude/commands/senzing.md file]: .claude/commands/senzing.md
 [.claude/settings.json file]: .claude/settings.json
 [.github/CODEOWNERS file]: .github/CODEOWNERS
@@ -230,6 +263,7 @@ This includes how to report a suspected vulnerability.
 [cspell]: https://cspell.org/
 [dependabot.yml file]: .github/dependabot.yml
 [dependabot.yml]: githubdependabotyml
+[Directory layout]: #directory-layout
 [docs directory]: docs
 [docs/]: #docs
 [garage.senzing.com]: https://garage.senzing.com/

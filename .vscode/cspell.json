@@ -11,7 +11,8 @@
     "esbenp",
     "ICLA",
     "Senzing",
-    "stackoverflow"
+    "stackoverflow",
+    "zizmor"
   ],
   "ignorePaths": [
     ".git/**"
