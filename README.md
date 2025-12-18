@@ -205,6 +205,7 @@ This includes how to report a suspected vulnerability.
 [docs directory]: docs
 [docs/]: #docs
 [garage.senzing.com]: https://garage.senzing.com/
+[garage.senzing.com/sdk-components-ng]: https://garage.senzing.com/sdk-components-ng/
 [GitHub Pages]: https://pages.github.com/
 [github.com]: https://github.com/
 [github.com/orgs/Senzing/teams]: https://github.com/orgs/Senzing/teams
