@@ -39,12 +39,12 @@ Senzing community files:
 
 ### .github/CODEOWNERS
 
-The [.github/CODEOWNERS] file implements GitHub's [code owners].
+The [.github/CODEOWNERS file] implements GitHub's [code owners].
 The teams that may appear in a `CODEOWNERS` file can be seen at [github.com/orgs/Senzing/teams].
 
 ### .github/dependabot.yml
 
-The [dependabot.yml] file is configuration for [GitHub's dependabot].
+The [dependabot.yml file] is configuration for [GitHub's dependabot].
 
 ### .github/senzing-corporate-contributor-license-agreement.pdf
 
@@ -73,7 +73,7 @@ _Note:_ if an individual is contributing on behalf of a company, the [senzing-co
 
 ## docs
 
-The [docs] subdirectory may be published as [GitHub Pages].
+The [docs directory] subdirectory may be published as [GitHub Pages].
 They become visible at [garage.senzing.com].
 URLs have the format:
 
@@ -83,7 +83,7 @@ https://garage.senzing.com/<repository-name>
 
 ## CHANGELOG.md
 
-The contents of the [CHANGELOG] are meant to be consumed by users of the repository.
+The contents of the [CHANGELOG.md file] are meant to be consumed by users of the repository.
 As such, they need to know what changes affect them as users.
 In general, changes that do not effect users should not be captured in `CHANGELOG.md`.
 For this reason, automatic generation of `CHANGELOG.md` entries is discouraged.
@@ -93,7 +93,7 @@ Also, projects adhere to [Semantic Versioning].
 
 ## CODE_OF_CONDUCT.md
 
-The [CODE_OF_CONDUCT] file describes the social conventions among contributors to the repository.
+The [CODE_OF_CONDUCT.md file] describes the social conventions among contributors to the repository.
 
 > A _code of conduct_ defines standards for how to engage in a community.
 > It signals an inclusive environment that respects all contributions.
@@ -102,7 +102,7 @@ The [CODE_OF_CONDUCT] file describes the social conventions among contributors t
 >
 > -- <cite>GitHub's [Adding a code of conduct to your project]</cite>
 
-The [CODE_OF_CONDUCT] file in this repository is based on GitHub's "[Contributor Covenant]".
+The [CODE_OF_CONDUCT.md file] in this repository is based on GitHub's "[Contributor Covenant]".
 
 ### How to create CODE_OF_CONDUCT.md
 
@@ -115,14 +115,14 @@ The [CODE_OF_CONDUCT] file in this repository is based on GitHub's "[Contributor
 
 ## CONTRIBUTING.md
 
-The [CONTRIBUTING] file describes the process for contributing to the repository.
+The [CONTRIBUTING.md file] describes the process for contributing to the repository.
 
 > To help your project contributors do good work, you can add a file with contribution guidelines to your project repository's root.
 > When someone opens a pull request or creates an issue, they will see a link to that file.
 >
 > -- <cite>GitHub's [Setting guidelines for repository contributors]</cite>
 
-The [CONTRIBUTING] file in this repository is an example that needs to be modified to represent the requirements of the actual repository.
+The [CONTRIBUTING.md file] in this repository is an example that needs to be modified to represent the requirements of the actual repository.
 
 ### How to create CONTRIBUTING.md
 
@@ -130,9 +130,6 @@ The [CONTRIBUTING] file in this repository is an example that needs to be modifi
    1. [github.com] > (choose repository) > Insights > Community > Contributing > "Add" button
 1. Option #2: Manual file creation
    1. See GitHub's [Setting guidelines for repository contributors]
-
-Example:
-[garage.senzing.com/sdk-components-ng]
 
 ## LICENSE
 
@@ -162,32 +159,32 @@ Examples:
 
 ## SECURITY.md
 
-The contents of the [SECURITY] file explain the security aspects of the repository.
+The contents of the [SECURITY.md file] explain the security aspects of the repository.
 This includes how to report a suspected vulnerability.
 
-[.github/CODEOWNERS]: .github/CODEOWNERS
+[.github/CODEOWNERS file]: .github/CODEOWNERS
 [Adding a code of conduct to your project]: https://help.github.com/articles/adding-a-code-of-conduct-to-your-project/
 [Adding a license to a repository]: https://help.github.com/articles/adding-a-license-to-a-repository/
 [Apache License 2.0]: https://www.apache.org/licenses/LICENSE-2.0.html
 [Apache Software Foundation Code of Conduct]: https://www.apache.org/foundation/policies/conduct.html
+[CHANGELOG.md file]: CHANGELOG.md
 [CHANGELOG.md]: #changelogmd
-[CHANGELOG]: CHANGELOG.md
 [choosealicense.com]: https://choosealicense.com/licenses/
 [code owners]: https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-code-owners
+[CODE_OF_CONDUCT.md file]: CODE_OF_CONDUCT.md
 [CODE_OF_CONDUCT.md]: #code_of_conductmd
-[CODE_OF_CONDUCT]: CODE_OF_CONDUCT.md
 [CODEOWNERS]: #githubcodeowners
 [CommonMark]: https://commonmark.org/
 [Community]: https://github.com/senzing-garage/template-repository/graphs/community
+[CONTRIBUTING.md file]: CONTRIBUTING.md
 [CONTRIBUTING.md]: #contributingmd
-[CONTRIBUTING]: CONTRIBUTING.md
 [Contributor Covenant]: https://www.contributor-covenant.org/version/3/0/code_of_conduct/
 [creating a new repository]: https://github.com/new
-[dependabot.yml]: .github/dependabot.yml
-[docs]: docs
+[dependabot.yml file]: .github/dependabot.yml
+[dependabot.yml]: githubdependabotyml
+[docs directory]: docs
 [docs/]: #docs
 [garage.senzing.com]: https://garage.senzing.com/
-[garage.senzing.com/sdk-components-ng]: https://garage.senzing.com/sdk-components-ng/
 [GitHub Pages]: https://pages.github.com/
 [github.com]: https://github.com/
 [github.com/orgs/Senzing/teams]: https://github.com/orgs/Senzing/teams
@@ -197,8 +194,8 @@ This includes how to report a suspected vulnerability.
 [LICENSE]: #license
 [Open Source Guide]: https://opensource.guide/code-of-conduct/
 [README.md]: #readmemd
+[SECURITY.md file]: SECURITY.md
 [SECURITY.md]: #securitymd
-[SECURITY]: security.md
 [Semantic Versioning]: https://semver.org/spec/v2.0.0.html
 [Senzing Garage]: https://github.com/senzing-garage
 [Senzing Quick Start guides]: https://docs.senzing.com/quickstart/
