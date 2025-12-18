@@ -21,30 +21,65 @@ As an example, click on the following links on this GitHub repository:
 
 Senzing community files:
 
-1. [CHANGELOG.md]
-1. [CODE_OF_CONDUCT.md]
-1. [CONTRIBUTING.md]
-1. [docs/]
 1. .github/
    1. [CODEOWNERS]
    1. [dependabot.yml]
    1. [senzing-corporate-contributor-license-agreement]
    1. [senzing-individual-contributor-license-agreement]
    1. workflows/
+1. [docs/]
+1. [CHANGELOG.md]
+1. [CODE_OF_CONDUCT.md]
+1. [CONTRIBUTING.md]
 1. [LICENSE]
 1. [README.md]
 1. [SECURITY.md]
 
-## README.md
+## .github
 
-Although the file you are reading is a `README.md` file, this isn't the style of `README.md` for most projects.
-Depending upon the type of repository, the following `README.md` templates may be more appropriate:
+### .github/CODEOWNERS
 
-Examples:
+The [.github/CODEOWNERS] file implements GitHub's [code owners].
+The teams that may appear in a `CODEOWNERS` file can be seen at [github.com/orgs/Senzing/teams].
 
-1. [template-docker/README.md]
-1. [template-go/README.md]
-1. [template-python/README.md]
+### .github/dependabot.yml
+
+The [dependabot.yml] file is configuration for [GitHub's dependabot].
+
+### .github/senzing-corporate-contributor-license-agreement.pdf
+
+The Senzing, INC. Software Grant and Corporate Contributor License Agreement (CCLA), [senzing-corporate-contributor-license-agreement.pdf], is the standard agreement for a corporation's contribution to a Senzing repository.
+
+#### How to create .github/senzing-corporate-contributor-license-agreement.pdf
+
+1. Make a `.github` directory in the repository.
+1. Copy [senzing-corporate-contributor-license-agreement.pdf] into the new `.github` directory.
+1. _DO NOT_ modify the contents of [senzing-corporate-contributor-license-agreement.pdf] without legal approval.
+1. Reference `senzing-corporate-contributor-license-agreement.pdf` in [CONTRIBUTING.md].
+
+### .github/senzing-individual-contributor-license-agreement.pdf
+
+The Individual Contributor License Agreement (ICLA), [senzing-individual-contributor-license-agreement.pdf], is the standard agreement for an individual's contribution to a Senzing repository.
+_Note:_ if an individual is contributing on behalf of a company, the [senzing-corporate-contributor-license-agreement] must also be submitted and accepted.
+
+#### How to create .github/senzing-individual-contributor-license-agreement.pdf
+
+1. Make a `.github` directory in the repository.
+1. Copy [senzing-individual-contributor-license-agreement.pdf] into the new `.github` directory.
+1. _DO NOT_ modify the contents of [senzing-individual-contributor-license-agreement.pdf] without legal approval.
+1. Reference `senzing-individual-contributor-license-agreement.pdf` in [CONTRIBUTING.md].
+
+### .github/workflows
+
+## docs
+
+The [docs] subdirectory may be published as [GitHub Pages].
+They become visible at [garage.senzing.com].
+URLs have the format:
+
+```console
+https://garage.senzing.com/<repository-name>
+```
 
 ## CHANGELOG.md
 
@@ -96,54 +131,8 @@ The [CONTRIBUTING] file in this repository is an example that needs to be modifi
 1. Option #2: Manual file creation
    1. See GitHub's [Setting guidelines for repository contributors]
 
-## docs
-
-The [docs] subdirectory may be published as [GitHub Pages].
-They become visible at [garage.senzing.com].
-URLs have the format:
-
-```console
-https://garage.senzing.com/<repository-name>
-```
-
 Example:
 [garage.senzing.com/sdk-components-ng]
-
-## .github
-
-### .github/CODEOWNERS
-
-The [.github/CODEOWNERS] file implements GitHub's [code owners].
-The teams that may appear in a `CODEOWNERS` file can be seen at [github.com/orgs/Senzing/teams].
-
-### .github/dependabot.yml
-
-The [dependabot.yml] file is configuration for [GitHub's dependabot].
-
-### .github/senzing-corporate-contributor-license-agreement.pdf
-
-The Senzing, INC. Software Grant and Corporate Contributor License Agreement (CCLA), [senzing-corporate-contributor-license-agreement.pdf], is the standard agreement for a corporation's contribution to a Senzing repository.
-
-#### How to create .github/senzing-corporate-contributor-license-agreement.pdf
-
-1. Make a `.github` directory in the repository.
-1. Copy [senzing-corporate-contributor-license-agreement.pdf] into the new `.github` directory.
-1. _DO NOT_ modify the contents of [senzing-corporate-contributor-license-agreement.pdf] without legal approval.
-1. Reference `senzing-corporate-contributor-license-agreement.pdf` in [CONTRIBUTING.md].
-
-### .github/senzing-individual-contributor-license-agreement.pdf
-
-The Individual Contributor License Agreement (ICLA), [senzing-individual-contributor-license-agreement.pdf], is the standard agreement for an individual's contribution to a Senzing repository.
-_Note:_ if an individual is contributing on behalf of a company, the [senzing-corporate-contributor-license-agreement] must also be submitted and accepted.
-
-#### How to create .github/senzing-individual-contributor-license-agreement.pdf
-
-1. Make a `.github` directory in the repository.
-1. Copy [senzing-individual-contributor-license-agreement.pdf] into the new `.github` directory.
-1. _DO NOT_ modify the contents of [senzing-individual-contributor-license-agreement.pdf] without legal approval.
-1. Reference `senzing-individual-contributor-license-agreement.pdf` in [CONTRIBUTING.md].
-
-### .github/workflows
 
 ## LICENSE
 
@@ -159,6 +148,17 @@ The [LICENSE file] in this repository is based on "[Apache License 2.0]".
    1. When [creating a new repository], in the "Add a license:" drop-down, choose "Apache License 2.0".
 1. Option #2: Manual file creation.
    1. See GitHub's [Adding a license to a repository].
+
+## README.md
+
+Although the file you are reading is a `README.md` file, this isn't the style of `README.md` for most projects.
+Depending upon the type of repository, the following `README.md` templates may be more appropriate:
+
+Examples:
+
+1. [template-docker/README.md]
+1. [template-go/README.md]
+1. [template-python/README.md]
 
 ## SECURITY.md
 
