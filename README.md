@@ -21,6 +21,9 @@ As an example, click on the following links on this GitHub repository:
 
 Senzing community files:
 
+1. .claude/
+   1. [commands/senzing.md]
+   1. [settings.json]
 1. .github/
    1. [CODEOWNERS]
    1. [dependabot.yml]
@@ -34,6 +37,16 @@ Senzing community files:
 1. [LICENSE]
 1. [README.md]
 1. [SECURITY.md]
+
+## .claude
+
+### .claude/commands/senzing.md
+
+The [.claude/commands/senzing.md file] contains a [Claude custom command] which is a "router" to all Senzing custom commands.
+
+### .claude/settings.json
+
+The [.claude/settings.json file] contains repository-scoped Claude settings.
 
 ## .github
 
@@ -162,6 +175,8 @@ Examples:
 The contents of the [SECURITY.md file] explain the security aspects of the repository.
 This includes how to report a suspected vulnerability.
 
+[.claude/commands/senzing.md file]: .claude/commands/senzing.md
+[.claude/settings.json file]: .claude/settings.json
 [.github/CODEOWNERS file]: .github/CODEOWNERS
 [Adding a code of conduct to your project]: https://help.github.com/articles/adding-a-code-of-conduct-to-your-project/
 [Adding a license to a repository]: https://help.github.com/articles/adding-a-license-to-a-repository/
@@ -170,10 +185,12 @@ This includes how to report a suspected vulnerability.
 [CHANGELOG.md file]: CHANGELOG.md
 [CHANGELOG.md]: #changelogmd
 [choosealicense.com]: https://choosealicense.com/licenses/
+[Claude custom command]: https://code.claude.com/docs/en/slash-commands#custom-slash-commands
 [code owners]: https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-code-owners
 [CODE_OF_CONDUCT.md file]: CODE_OF_CONDUCT.md
 [CODE_OF_CONDUCT.md]: #code_of_conductmd
 [CODEOWNERS]: #githubcodeowners
+[commands/senzing.md]: #claudecommandssenzingmd
 [CommonMark]: https://commonmark.org/
 [Community]: https://github.com/senzing-garage/template-repository/graphs/community
 [CONTRIBUTING.md file]: CONTRIBUTING.md
@@ -205,6 +222,7 @@ This includes how to report a suspected vulnerability.
 [senzing-individual-contributor-license-agreement]: #githubsenzing-individual-contributor-license-agreementpdf
 [Senzing]: https://senzing.com/
 [Setting guidelines for repository contributors]: https://help.github.com/articles/setting-guidelines-for-repository-contributors/
+[settings.json]: #claudesettingsjson
 [template-docker/README.md]: https://github.com/senzing-garage/template-docker/blob/main/README.md
 [template-go/README.md]: https://github.com/senzing-garage/template-go/blob/main/README.md
 [template-python/README.md]: https://github.com/senzing-garage/template-python/blob/main/README.md

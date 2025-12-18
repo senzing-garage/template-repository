@@ -4,6 +4,7 @@
   "words": [
     "CCLA",
     "choosealicense",
+    "claudecommandssenzingmd",
     "CODEOWNER",
     "CODEOWNERS",
     "cooldown",
@@ -12,5 +13,7 @@
     "Senzing",
     "stackoverflow"
   ],
-  "ignorePaths": [".git/**"]
+  "ignorePaths": [
+    ".git/**"
+  ]
 }
