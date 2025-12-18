@@ -181,7 +181,7 @@ This includes how to report a suspected vulnerability.
 [Community]: https://github.com/senzing-garage/template-repository/graphs/community
 [CONTRIBUTING.md]: #contributingmd
 [CONTRIBUTING]: CONTRIBUTING.md
-[Contributor Covenant]: https://www.contributor-covenant.org/version/1/4/code-of-conduct.html
+[Contributor Covenant]: https://www.contributor-covenant.org/version/3/0/code_of_conduct/
 [creating a new repository]: https://github.com/new
 [dependabot.yml]: .github/dependabot.yml
 [docs]: docs
